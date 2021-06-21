@@ -5,5 +5,5 @@ begin
 	apex_application_install.set_application_alias( 'testeapexei' );
 end;
 /
-@f19815.sql
+@apex-export/f19815.sql
 quit;
