@@ -16,6 +16,9 @@ wwv_flow_api.create_flow(
 ,p_owner=>nvl(wwv_flow_application_install.get_schema,'DEV')
 ,p_name=>nvl(wwv_flow_application_install.get_application_name,'Text Apex Import')
 ,p_alias=>nvl(wwv_flow_application_install.get_application_alias,'TEXT-APEX-IMPORT')
+,p_application_group=>wwv_flow_api.id(59201160146420707)
+,p_application_group_name=>'Test'
+,p_application_group_comment=>unistr('Aplica\00E7\00F5es usadas exclusivamente para testes.')
 ,p_page_view_logging=>'YES'
 ,p_page_protection_enabled_y_n=>'Y'
 ,p_checksum_salt=>'1922003E59BF8EF13C85B04CDC19AAF7552BF63A49ED43B61CD09B393E23D207'
@@ -49,9 +52,9 @@ wwv_flow_api.create_flow(
 ,p_substitution_string_01=>'APP_NAME'
 ,p_substitution_value_01=>'Text Apex Import'
 ,p_last_updated_by=>'DEV'
-,p_last_upd_yyyymmddhh24miss=>'20210621174412'
+,p_last_upd_yyyymmddhh24miss=>'20210629163358'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
-,p_files_version=>93
+,p_files_version=>105
 ,p_ui_type_name => null
 ,p_print_server_type=>'NATIVE'
 );
