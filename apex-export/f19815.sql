@@ -28,7 +28,7 @@ prompt APPLICATION 19815 - Text Apex Import
 -- Application Export:
 --   Application:     19815
 --   Name:            Text Apex Import
---   Date and Time:   16:34 Tuesday June 29, 2021
+--   Date and Time:   10:36 Wednesday June 30, 2021
 --   Exported By:     DEV
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -116,9 +116,9 @@ wwv_flow_api.create_flow(
 ,p_substitution_string_01=>'APP_NAME'
 ,p_substitution_value_01=>'Text Apex Import'
 ,p_last_updated_by=>'DEV'
-,p_last_upd_yyyymmddhh24miss=>'20210629163358'
+,p_last_upd_yyyymmddhh24miss=>'20210630103619'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
-,p_files_version=>105
+,p_files_version=>141
 ,p_ui_type_name => null
 ,p_print_server_type=>'NATIVE'
 );
@@ -266,7 +266,7 @@ end;
 prompt --application/shared_components/files/js_app_js
 begin
 wwv_flow_api.g_varchar2_table := wwv_flow_api.empty_varchar2_table;
-wwv_flow_api.g_varchar2_table(1) := '636F6E736F6C652E6C6F672822546573746531323322290A2F2F2320736F757263654D617070696E6755524C3D6170702E6A732E6D61700A';
+wwv_flow_api.g_varchar2_table(1) := '636F6E736F6C652E6C6F67282254657374653132332033302F30362F3230323122290A2F2F2320736F757263654D617070696E6755524C3D6170702E6A732E6D61700A';
 wwv_flow_api.create_app_static_file(
  p_id=>wwv_flow_api.id(57201083620023439)
 ,p_file_name=>'js/app.js'
@@ -280,7 +280,7 @@ prompt --application/shared_components/files/js_app_js_map
 begin
 wwv_flow_api.g_varchar2_table := wwv_flow_api.empty_varchar2_table;
 wwv_flow_api.g_varchar2_table(1) := '7B2276657273696F6E223A332C226E616D6573223A5B5D2C226D617070696E6773223A22222C22736F7572636573223A5B226170702E6A73225D2C22736F7572636573436F6E74656E74223A5B22636F6E736F6C652E6C6F67285C225465737465313233';
-wwv_flow_api.g_varchar2_table(2) := '5C2229225D2C2266696C65223A226170702E6A73227D';
+wwv_flow_api.g_varchar2_table(2) := '2033302F30362F323032315C2229225D2C2266696C65223A226170702E6A73227D';
 wwv_flow_api.create_app_static_file(
  p_id=>wwv_flow_api.id(57201385896023441)
 ,p_file_name=>'js/app.js.map'
@@ -293,7 +293,7 @@ end;
 prompt --application/shared_components/files/js_app_min_js
 begin
 wwv_flow_api.g_varchar2_table := wwv_flow_api.empty_varchar2_table;
-wwv_flow_api.g_varchar2_table(1) := '636F6E736F6C652E6C6F672822546573746531323322293B';
+wwv_flow_api.g_varchar2_table(1) := '636F6E736F6C652E6C6F67282254657374653132332033302F30362F3230323122293B';
 wwv_flow_api.create_app_static_file(
  p_id=>wwv_flow_api.id(57201645156023443)
 ,p_file_name=>'js/app.min.js'

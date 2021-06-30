@@ -12,7 +12,7 @@ wwv_flow_api.component_begin (
 ,p_default_owner=>'DEV'
 );
 wwv_flow_api.g_varchar2_table := wwv_flow_api.empty_varchar2_table;
-wwv_flow_api.g_varchar2_table(1) := '636F6E736F6C652E6C6F672822546573746531323322293B';
+wwv_flow_api.g_varchar2_table(1) := '636F6E736F6C652E6C6F67282254657374653132332033302F30362F3230323122293B';
 wwv_flow_api.create_app_static_file(
  p_id=>wwv_flow_api.id(57201645156023443)
 ,p_file_name=>'js/app.min.js'

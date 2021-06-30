@@ -52,9 +52,9 @@ wwv_flow_api.create_flow(
 ,p_substitution_string_01=>'APP_NAME'
 ,p_substitution_value_01=>'Text Apex Import'
 ,p_last_updated_by=>'DEV'
-,p_last_upd_yyyymmddhh24miss=>'20210629163358'
+,p_last_upd_yyyymmddhh24miss=>'20210630103619'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
-,p_files_version=>105
+,p_files_version=>141
 ,p_ui_type_name => null
 ,p_print_server_type=>'NATIVE'
 );
